@@ -54,7 +54,8 @@ const Home = () => {
           subtitle="Be the first to post"
            />
         )}
-        refresgControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
+        refreshControl={
+        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
       />
     </SafeAreaView>
   )

@@ -64,15 +64,9 @@ const Profile = () => {
               </View>
             </View>
         )}
-        ListEmptyComponent={() => (
-          <EmptyState
-            title="No Videos Found"
-            subtitle="No videos found for this search query"
-          />
-        )}
       />
     </SafeAreaView>
-  );
-};
+  )
+}
 
 export default Profile;
