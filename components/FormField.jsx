@@ -19,7 +19,7 @@ const FormField = ({ title, value, placeholder, handleChangeText, otherStyles, .
         />
         {title === 'Password' && (
             <TouchableOpacity onPress={() => setShowPassword(!showPassword)}>
-                <Image source={!showPassword ? icons.eye : icons.eyehide} className="w-6 h-6" resizeMode='contain' />
+                <Image source={!showPassword ? icons.eye : icons.eye-hide} className="w-6 h-6" resizeMode='contain' />
             </TouchableOpacity>
         )}
       </View>
